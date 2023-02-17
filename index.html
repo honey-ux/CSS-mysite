@@ -1,65 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <title>Sri hardhik</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <div class="top-container">
-    <img class="top-cloud" src="cloud.png" alt="cloud-img">
-    <h1>I'm Sri Hardhik</h1>
-    <h2>a <u>pro</u></a>grammer</h2>
-    <img class="bottom-cloud" src="cloud.png" alt="cloud-img">
-    <img src="mountain.png" alt="mountain-img">
-  </div>
-
-  <div class="middle-container">
-    <div class="profile">
-      <img class="my-img" src="My_photo.jpeg" alt="my-profile">
-      <h2>Hello.</h2>
-      <p>I am a full stack web developer and a computer programmer</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="py" src="python.png" alt="">
-        <h3>PYTHON</h3>
-        <p>Able to code intermediate programs in python . had a certificaton by microsoft technology associate on python with 91 % marks</p>
-      </div>
-      <div class="skill-row">
-        <img class="java" src="java.png" alt="">
-        <h3>JAVA</h3>
-        <p>Good with object oriented concepts in java at intermediate level</p>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="todos-bg-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="todos-heading">Todos</h1>
+            <h1 class="create-task-heading">
+              Create Task
+            </h1>
+            <input type="text" id="todoUserInput" class="todo-user-input" placeholder="ADD A TASK"/>
+            <button class="add-todo-button" id="addTodoButton">Add</button>
+            <h1 class="todo-items-heading">
+              My Tasks
+            </h1>
+            <ul class="todo-items-container" id="todoItemsContainer"></ul>
+          </div>
+        </div>
       </div>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you love programming as much as I do.</h3>
-      <p>If you love programming as much as I do, let's build websites together that could solve a bigger problem in the society.</p>
-      <P style="margin:50px auto 100px auto">
-          <a class="btn" href="mailto:srihardhik2227@email.com">CONTACT ME</a>
-      </P>
-
-    </div>
-  </div>
-
-
-  <div class="bottom-container">
-    <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/sri-hardhik-7235a7234/">LinkedIn</a>
-    <a class="footer-link" target="_blank" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" target="_blank" href="https://honey-ux.github.io/cv/">Website</a>
-    <p class="copyright">© Sri hardhik Nuvvuru.</p>
-  </div>
-
-</body>
-
+    <script src="index.js" type="text/javascript"></script>
+  </body>
 </html>
